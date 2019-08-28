@@ -14,7 +14,7 @@ class ArubaServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/aruba.php' => app()->basePath() . '/config/aruba.php',
+            __DIR__.'/config/aruba.php' => app()->basePath() . '/config/aruba.php',
         ]);
     }
 
